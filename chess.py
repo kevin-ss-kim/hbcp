@@ -232,7 +232,7 @@ def main():
     global input
     cb = ChessBoard()
     if len(sys.argv) == 1:
-        print("\033[94mPlease enter in ChessPiece input for white\n\033[92mThe input format for ChessPiece is \nPIECE,COORDINATE,COLOR\nwhere PIECE = [k, q, n, r, b, p] and COORDINATE = [a1, a2, a3,..., h6, h7, h8] and COLOR = [w, b]\033[0m")
+        print("\033[94mPlease enter in ChessPiece input\n\033[92mThe input format for ChessPiece is \nPIECE,COORDINATE,COLOR\nwhere PIECE = [k, q, n, r, b, p] and COORDINATE = [a1, a2, a3,..., h6, h7, h8] and COLOR = [w, b]\033[0m")
         while True:
             ChessPieceInfo = input('Piece:  ')
             if ChessPieceInfo == "done":
